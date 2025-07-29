@@ -266,7 +266,7 @@ npm test
 Run 
 
 ```bash
-npm run mocha_test -- -g <version>
+npm run mocha_test -- -g <1.19.4>
 ```
 
 where `<version>` is a minecraft version like `1.12`, `1.15.2`...
@@ -275,7 +275,7 @@ where `<version>` is a minecraft version like `1.12`, `1.15.2`...
 Run 
 
 ```bash
-npm run mocha_test -- -g <test_name>
+npm run mocha_test -- -g <manh>
 ```
 
 where `<test_name>` is a name of the test like `bed`, `useChests`, `rayTrace`...
@@ -283,10 +283,12 @@ where `<test_name>` is a name of the test like `bed`, `useChests`, `rayTrace`...
 ### Example
 
 ```bash
-npm run mocha_test -- -g "1.18.1.*BlockFinder"
+npm run mocha_test -- -g "1.19.4.*BlockFinder"
 ```
-to run the block finder test for 1.18.1
+to run the block finder test for 1.19.4
 
 ## License
 
-[MIT](/LICENSE)
+[MIT](/LICENS
+
+
